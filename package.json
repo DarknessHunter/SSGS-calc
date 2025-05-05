@@ -5,7 +5,7 @@
     "test": "jest --coverage"
   },
   "keywords": ["calculator", "cli", "node", "math"],
-  "author": "LB403Crew",
+  "author": "LB403Crew >",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
@@ -13,5 +13,16 @@
   "devDependencies": {
     "jest": "^29.5.0"
   },
-  "description": "A simple CLI calculator built with Node.js"
+  "description": "A simple CLI calculator built with Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarknessHunter/SSGS-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarknessHunter/SSGS-calc/issues"
+  },
+  "homepage": "https://github.com/DarknessHunter/SSGS-calc#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
