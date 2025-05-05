@@ -4,8 +4,8 @@
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["calculator", "cli", "node", "math"],
+  "author": "LB403Crew",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
@@ -13,5 +13,5 @@
   "devDependencies": {
     "jest": "^29.5.0"
   },
-  "description": ""
+  "description": "A simple CLI calculator built with Node.js"
 }
