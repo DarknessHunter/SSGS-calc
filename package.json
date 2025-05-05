@@ -10,8 +10,10 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "jest": "^29.7.0",
     "moment": "^2.30.1"
   },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
   "description": ""
 }
