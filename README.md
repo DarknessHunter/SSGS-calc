@@ -1,11 +1,11 @@
 # **SSGS Calculator**
 
 ## **✨ Project Overview**
-The **SSGS Calculator** is a simple yet powerful Node.js-based application designed to perform basic arithmetic operations: **addition**, **subtraction**, **multiplication**, and **division**. 
+The **SSGS Calculator** is a simple yet powerful Node.js-based application designed to perform basic arithmetic operations: **addition**, **subtraction**, **multiplication**, and **division**.
 
 This project includes:
 - A **core module** (`calculator.js`) implementing the arithmetic operations.
-- A **command-line interface (CLI)** (`app.js`) for seamless user interaction.
+- A **command-line interface (CLI)** (`index.js`) for seamless user interaction.
 - **Unit tests** written using Jest to ensure the correctness of the core logic.
 - A **Continuous Integration (CI) pipeline** using GitHub Actions to automate testing and code coverage reporting.
 
@@ -41,16 +41,91 @@ The scope of this project includes:
 
 ---
 
-## **✅ What We Did**
-### **1. Core Module Development**
-We implemented a `calculator.js` module with the following functions:
-- `addizione(a, b)`: Adds two numbers.
-- `sottrazione(a, b)`: Subtracts two numbers.
-- `moltiplicazione(a, b)`: Multiplies two numbers.
-- `divisione(a, b)`: Divides two numbers, with error handling for division by zero.
+## **📋 Prerequisites**
+Before you begin, make sure you have the following installed:
+- **Node.js** (version >= 18.0.0)
+- **npm** (comes with Node.js)
 
-Example:
-```javascript
-const calculator = require('./calculator');
-console.log(calculator.addizione(2, 3)); // Output: 5
-console.log(calculator.divisione(10, 0)); // Throws an error: "Impossibile dividere per zero."
+To check your Node.js version, run:
+```bash
+node -v
+```
+
+---
+
+## **⚙️ Installation**
+Follow these steps to set up the project:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/DarknessHunter/SSGS-calc.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd SSGS-calc
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+---
+
+## **🚀 Usage**
+You can use the **SSGS Calculator** via the command-line interface (CLI). 
+
+### Start the CLI:
+Run this command to start the interactive CLI:
+```bash
+npm start
+```
+
+### Example Interaction:
+1. Select an operation (e.g., addition).
+2. Enter two numbers.
+3. View the result.
+
+---
+
+## **🧪 Testing**
+To run the unit tests, use the following command:
+```bash
+npm test
+```
+
+### Coverage Report:
+The tests aim for 100% code coverage. After running the tests, you can view the coverage report in the terminal or as an HTML file in the `coverage/` directory.
+
+---
+
+## **📂 Project Structure**
+```
+SSGS-calc/
+├── calculator.js       # Core module for arithmetic operations
+├── index.js            # Command-line interface (CLI)
+├── package.json        # Project metadata and dependencies
+├── tests/              # Directory containing Jest test files
+│   └── calculator.test.js
+└── coverage/           # Directory for Jest coverage reports
+```
+
+---
+
+## **🛠️ Issues and Contributions**
+### Found a Bug?
+Report it in the [Issues section](https://github.com/DarknessHunter/SSGS-calc/issues).
+
+### Want to Contribute?
+Feel free to fork the repository, make your changes, and submit a pull request. Check out our [contributing guidelines](CONTRIBUTING.md) for details.
+
+---
+
+## **📜 License**
+This project is licensed under the [ISC License](LICENSE).
+
+---
+
+## **🌐 Links**
+- **Repository**: [SSGS Calculator GitHub Repo](https://github.com/DarknessHunter/SSGS-calc)
+- **Bug Tracker**: [Report Issues](https://github.com/DarknessHunter/SSGS-calc/issues)
+- **Homepage**: [SSGS Calculator Readme](https://github.com/DarknessHunter/SSGS-calc#readme)
