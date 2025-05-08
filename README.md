@@ -43,7 +43,7 @@ The scope of this project includes:
 
 ## **📋 Prerequisites**
 Before you begin, make sure you have the following installed:
-- **Node.js** (version >= 18.0.0)
+- **Node.js** (version >= 20.0.0)
 - **npm** (comes with Node.js)
 
 To check your Node.js version, run:
@@ -101,12 +101,11 @@ The tests aim for 100% code coverage. After running the tests, you can view the 
 ## **📂 Project Structure**
 ```
 SSGS-calc/
-├── calculator.js       # Core module for arithmetic operations
-├── index.js            # Command-line interface (CLI)
-├── package.json        # Project metadata and dependencies
-├── tests/              # Directory containing Jest test files
-│   └── calculator.test.js
-└── coverage/           # Directory for Jest coverage reports
+├── start.js           # Command-line interface (CLI)
+├── package.json       # Project metadata and dependencies
+├── calculator.test.js # Jest test file
+├── jest.config.js     # Jest configuration
+└── .github/          # GitHub Actions workflow directory
 ```
 
 ---
