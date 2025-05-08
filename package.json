@@ -1,6 +1,7 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
+  "main": "start.js",
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node start.js"
@@ -24,6 +25,6 @@
   },
   "homepage": "https://github.com/DarknessHunter/SSGS-calc#readme",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
