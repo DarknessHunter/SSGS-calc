@@ -2,7 +2,8 @@
   "name": "ssgs-calc",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "start": "node start.js"
   },
   "keywords": ["calculator", "cli", "node", "math"],
   "author": "LB403Crew >",
