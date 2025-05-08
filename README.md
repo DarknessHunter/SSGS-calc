@@ -1,11 +1,11 @@
 # **SSGS Calculator**
-
+# **LB403CREW**
 ## **✨ Project Overview**
 The **SSGS Calculator** is a simple yet powerful Node.js-based application designed to perform basic arithmetic operations: **addition**, **subtraction**, **multiplication**, and **division**.
 
 This project includes:
 - A **core module** (`calculator.js`) implementing the arithmetic operations.
-- A **command-line interface (CLI)** (`index.js`) for seamless user interaction.
+- A **command-line interface (CLI)** (`start.js`) for seamless user interaction.
 - **Unit tests** written using Jest to ensure the correctness of the core logic.
 - A **Continuous Integration (CI) pipeline** using GitHub Actions to automate testing and code coverage reporting.
 
